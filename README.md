@@ -13,7 +13,7 @@ Instructions to this assignment can be found [here](https://it3049c.github.io/Ma
 ## Self-Evaluation: 
 how many points out of 20 does your team deserve on this assignment. Revise the assignment grading guideline and assignment rubrics for guidance.
 
-I'd give myself 15/20 points on this due to odd behavior I got whenever I ran 'npm test'. At the end of the terminal log, it stated that I passed all 31/31 tests, but the terminal was filled with "async" errors. To add onto this, when I initially ran 'npm install', it stated that there were some errors that could be fixed with 'npm audit fix', so that could be the cause of this behavior.
+I'd give myself 17/20 points on this due to odd behavior I got whenever I ran 'npm test'. At the end of the terminal log, it stated that I passed all 31/31 tests, but the terminal was filled with "async" errors. To add onto this, when I initially ran 'npm install', it stated that there were some errors that could be fixed with 'npm audit fix', so that could be the cause of this behavior.
 
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
