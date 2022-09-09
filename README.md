@@ -22,4 +22,4 @@ The main issue I was having was the form refreshing and some incorrect function 
 this week that prevented form default behavior and that allowed me to actually test the game. Once I fixed my function calls (I was assigning score/history methods to variables instead of just calling them) everything ran as expected. Apart from that, I'm glad I was able to be exposed to Bootstrap this week.
 
 ### How long it took us to finish this?
-I worked on this on and off throughout the night, so maybe around 2-3 hours in total.
+I worked on this on and off throughout the night, so maybe around 3 hours in total.
