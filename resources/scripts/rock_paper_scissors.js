@@ -65,8 +65,8 @@ class RockPaperScissors {
     if (this.determineWinner(userSelection, cpuSelection) === 'win') {
       this.score.user++;
     } else if (this.determineWinner(userSelection, cpuSelection) === 'tie') {
-      this.score.user++;
-      this.score.cpu++;
+      // this.score.user++;
+      // this.score.cpu++;
     } else {
       this.score.cpu++;
     }
@@ -76,16 +76,16 @@ class RockPaperScissors {
     let result = this.determineWinner(userSelection, cpuSelection);
     switch (result) {
       case 'win':
-        result = username + "wins";
+        result = username + " wins";
         break;
       case 'lose':
-        result = username + "lost";
+        result = username + " lost";
         break;
       case 'tie':
-        result = "both tie!";
+        result = "both tie";
         break;
     }
     this.gameHistoryLog.push(username + " selected " + userSelection + ", CPU selected " 
-                            + cpuSelection + ": " + result);
+                            + cpuSelection + ": " + result + ".");
   }
 }
