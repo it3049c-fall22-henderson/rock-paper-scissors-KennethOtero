@@ -64,10 +64,7 @@ class RockPaperScissors {
     // Determine winner
     if (this.determineWinner(userSelection, cpuSelection) === 'win') {
       this.score.user++;
-    } else if (this.determineWinner(userSelection, cpuSelection) === 'tie') {
-      // this.score.user++;
-      // this.score.cpu++;
-    } else {
+    } else if (this.determineWinner(userSelection, cpuSelection) === 'lose') {
       this.score.cpu++;
     }
 
